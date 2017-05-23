@@ -1,0 +1,10 @@
+div{
+    width: 328px;
+    height: 328px;
+    border: blue 3px solid;
+    position: fixed;
+}
+
+img{
+    position: fixed;
+}
