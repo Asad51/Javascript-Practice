@@ -1,0 +1,11 @@
+button {
+    top: 50px;
+    left: 50px;
+    background: azure;
+    color: blue;
+    position: absolute;
+}
+
+div{
+    position: absolute;
+}
