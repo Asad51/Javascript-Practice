@@ -1,0 +1,56 @@
+#mainArea {
+    width: 500px;
+    height: 200px;
+    background-color: lightgrey;
+    top: 100px;
+    left: 50px;
+    position: fixed;
+}
+
+#score {
+    top: 305px;
+    left: 50px;
+    position: fixed;
+    color: red;
+    font-size: 20px;
+}
+
+#playSquare {
+    background: red;
+    width: 40px;
+    height: 40px;
+    top: 180px;
+    left: 60px;
+    position: fixed;
+}
+
+.buttonControl {
+    width: 60px;
+    height: 30px;
+    position: fixed;
+    background: green;
+    color: black;
+    text-align: center;
+    border-radius: 10%;
+    border-collapse: collapse;
+}
+
+#upButton {
+    top: 350px;
+    left: 195px;
+}
+
+#leftButton {
+    top: 390px;
+    left: 150px;
+}
+
+#rightButton {
+    top: 390px;
+    left: 240px;
+}
+
+#downButton {
+    top: 430px;
+    left: 195px;
+}

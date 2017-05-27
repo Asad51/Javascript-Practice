@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Avoid The Bar</title>
+        <link rel="stylesheet" href="GameStyle.css">
+        <script src="GameController.js"></script>
+    </head>
+    <body id="theBody" onload="mainControl()">
+        <h2>Press the buttons to move the square</h2>
+        <div id="mainArea"></div>
+        <p id="score"></p>
+        <div id="playSquare"></div>
+        <button class="buttonControl" id="upButton" onclick="controlUp()">Up</button>
+        <button class="buttonControl" id="rightButton" onclick="controlRight()">Right</button>
+        <button class="buttonControl" id="leftButton" onclick="controlLeft()">Left</button>
+        <button class="buttonControl" id="downButton" onclick="controlDown()">Down</button>
+    </body>
+</html>
